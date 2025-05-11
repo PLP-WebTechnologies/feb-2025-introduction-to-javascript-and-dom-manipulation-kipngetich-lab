@@ -1,0 +1,68 @@
+/* Basic styles */
+body { 
+	font-family: sans-serif; 
+	margin: 0; 
+	background-color: orange;	
+	}
+header { 
+	background-color: chocolate; 
+	padding: 20px; 
+	text-align: center;
+}
+nav ul { 
+	list-style: none; 
+	padding: 0; 
+	margin: 0; 
+}
+nav li { 
+	display: inline; 
+	margin: 0 10px; 
+}
+.hero-section {
+	padding: 50px 0; 
+	display: flex;
+	flex-direction:column;/*stack items vertically*/
+	justify-content:center;/*vertical centering*/
+	align-items:center;/*horizontal centering*/
+	height:40vh;
+	text-align:center;
+ } /* Added padding */
+.menu-section, .about-section, .contact-section { 
+	padding: 20px;
+}
+
+.contact-section{
+	display: flex;
+	flex-direction:column;/*stack items vertically*/
+	justify-content:center;/*vertical centering*/
+	align-items:center;/*horizontal centering*/
+	height:40vh;
+	text-align:center;
+}
+.menu-items { 
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: space-around;
+}
+.menu-item { 
+	width: 30%; 
+	margin-bottom: 20px; 
+	text-align: center; 
+} /* style width*/
+.menu-item img { 
+	max-width: 100%; 
+	height: auto; 
+}
+footer { 
+	text-align: center; 
+	padding: 10px; 
+	background-color: chocolate; 
+}
+/* style special offer */
+#specialOffer {
+    background-color: lightgreen;
+    padding: 15px;
+    border: 1px solid green;
+    text-align: center;
+    margin-top: 20px;
+  }
