@@ -2,9 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+		<section id="home" class="hero-section">
+		<div id="home" class="hero-section">
+            <h1 id="mainHeading">Royal Restaurant</h1>
+            <p id="heroText">Experience fine dining like never before.</p>
+            <button id="reserveButton">Reserve a Table</button>
+        </div>
+		</section>
+		<div id="specialOffer" style="display: none;">
+            <p>Special offer for today: Free pizza with every main course!</p>
+        </div>
+        <button id="toggleOfferButton">Show Special Offer</button> 
+		<section id="menu" class="menu-section">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="images/pizza.jpg" alt="Pizza">
+                    <h3 id="dish1Name">Pizza</h3>
+                    <p id="dish1Desc">Pizza is made with dough topped with tomato sauce,cheese,and various ingredients like meats,vegetables,and herbs,then baked.</p>
+                </div>
+				<div class="menu-item">
+                    <img src="images/pizza-drink.jpg" alt="Pizza drink">
+                    <h3 id="dish2Name">Pizaa drink</h3>
+                    <p id="dish2Desc">Beverage served alongside pizaa.Include lemon-lime soda,iced tea ,as their flavors complement savory and cheesy nature of pizza.</p>
+                </div>
+				<div class="menu-item">
+                    <img src="images/potato-chips.jpg" alt="Potato chips">
+                    <h3 id="dish3Name">Potato chips</h3>
+                    <p id="dish3Desc">Potato chips are thin slices of potatoes that are deep-fried or baked until crispy and seasoned with salt or various flavors,making them a popular snack worldwide</p>
+                </div>
+				</div> </section>
+        <section id="about" class="about-section">
+            <h2 id="aboutHeading">About Us</h2>
+            <p id="aboutText">We are passionate about creating delicious and memorable dining experiences. </p> </section>
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+                <address id="contactInfo">
+                 </address>
+        </section>
+    </main>
+    <footer> <p>&copy; 2025 Royal Restaurant. All rights reserved.</p> </footer>
+    <script src="script.js"></script>
 </body>
 </html>
